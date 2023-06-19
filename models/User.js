@@ -17,7 +17,6 @@ const UserSchema = new mongoose.Schema({
     city: {
         type: String,
         required: [true, 'Please provide email'],
-        unique: true
     }
 })
 
